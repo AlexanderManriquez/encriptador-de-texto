@@ -6,5 +6,3 @@ Este es un proyecto que comenzaré a desarrollar luego de haber finalizado la pr
 
 El objetivo es crear una aplicación que encripta y desencripta mensajes según lo solicitado por el usuario.
 
-## Construido con 🛠️
-
