@@ -8,12 +8,17 @@
 </head>
 
 <body>
-    <textarea name="textArea" class="cajaDeTexto" cols="50" rows="20">Escribe el mensaje aquí...</textarea>
+    <section class="mensajeUsuario">
+        <textarea id="cajaDeTexto" class="cajaDeTexto" placeholder="Escribe tu mensaje aquí..." cols="60" rows="30"></textarea>
+        <div class="botones">
+            <button class="botonEncriptar">Encriptar</button>
+            <button class="botonDesencriptar">Desencriptar</button>
+        </div>
+    </section>
 
-    <button class="boton">Encriptar</button>
-    <button class="boton">Desencriptar</button>
-
-    
+    <section class="mensajeEncriptado">
+        <textarea  id="respuestaEncriptador" class="respuestaEncriptador" cols="60" rows="30"></textarea>
+    </section>    
 </body>
 
 </html>

@@ -1,8 +1,25 @@
 body{
+    display: flex;
+    justify-content: space-evenly;
     background-color: rgb(246, 233, 218);
 }
 
 .cajaDeTexto{
-    margin: 5rem;
+    margin: 5rem 0 1rem auto;
+    background-color: rgb(246, 233, 218);
+    border: none;
 }
 
+.cajaDeTexto:hover{
+    background-color: white;
+    border: none;
+}
+
+.botones{
+    display: block;
+    margin-left: 9rem;
+}
+
+.mensajeEncriptado{
+    margin: 5rem 0 1rem 10rem;
+}
