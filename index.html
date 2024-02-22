@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Encriptador de texto</title>
 </head>
 
 <body>
+    <header>
+
+    </header>
+
     <section class="mensajeUsuario">
-        <textarea id="cajaDeTexto" class="cajaDeTexto" placeholder="Escribe tu mensaje aquí..." cols="60" rows="30"></textarea>
+        <textarea id="cajaDeTexto" class="cajaDeTexto" placeholder="Escribe tu mensaje aquí..." cols="60" rows="20"></textarea>
         <div class="botones">
-            <button class="botonEncriptar">Encriptar</button>
-            <button class="botonDesencriptar">Desencriptar</button>
+            <button type="button" class="btn btn-info">Encriptar</button>
+            <button type="button" class="btn btn-info">Desencriptar</button>
         </div>
     </section>
 
     <section class="mensajeEncriptado">
-        <textarea  id="respuestaEncriptador" class="respuestaEncriptador" cols="60" rows="30"></textarea>
-    </section>    
+        <textarea  id="respuestaEncriptador" class="respuestaEncriptador" cols="60" rows="20"></textarea>
+    </section>  
+    
+    <footer>
+        
+    </footer>
 </body>
 
 </html>
