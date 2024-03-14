@@ -1,0 +1,105 @@
+/* Paleta de colores: Dark Green (#053225), Jade (#0DAB76), Mint Cream (#EAF2EF), Slate Gray (#767B91), Dark Purple (#0F0326) */
+
+html{
+    background-color: #053225;
+    color: #EAF2EF;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    text-align: center;
+    color: #053225;
+}
+
+.titulo:hover{
+    display: inline-block;
+    color: #0DAB76;
+    text-shadow: 2px 2px 5px #0F0326;
+    transition: 0.5s;
+}
+
+.izquierda{
+    max-width: 49%;
+    /*border: 1px solid black; */
+}
+
+#entrada-texto{
+    border:#053225;
+    border-radius: 10px;
+    background-color: #30474153;
+    color: #EAF2EF;
+}
+
+.aviso{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boton1{
+    background-color: #0F0326;
+    color: #767B91;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.boton1:hover{
+    box-shadow: 2px 2px 2px #767B91;
+    text-shadow: 2px 2px 5px #767B91;
+}
+
+.boton2{
+    color: #0F0326;
+    background-color: #767B91;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.boton2:hover{
+    box-shadow: 2px 2px 2px #0F0326;
+    text-shadow: 2px 2px 5px #0F0326;
+}
+
+.derecha{
+    max-width: 49%;
+    /*border: 1px solid black; */
+}
+
+#salida-texto{
+    border:#053225;
+    border-radius: 10px;
+    background-color: #30474153;
+    color: #EAF2EF;
+}
+
+.boton-copiar{
+    background-color: #0F0326;
+    color: #767B91;
+    padding: 10px;
+    margin: 5px 0 0 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.boton-copiar:hover{
+    box-shadow: 2px 2px 2px #767B91;
+    text-shadow: 2px 2px 5px #767B91;
+}
