@@ -57,6 +57,7 @@ main{
 }
 
 .boton1{
+    cursor: pointer;
     background-color: #0F0326;
     color: #767B91;
     padding: 10px;
@@ -70,6 +71,7 @@ main{
 }
 
 .boton2{
+    cursor: pointer;
     color: #0F0326;
     background-color: #767B91;
     padding: 10px;
@@ -95,6 +97,7 @@ main{
 }
 
 .boton-copiar{
+    cursor: pointer;
     background-color: #0F0326;
     color: #767B91;
     padding: 10px;
