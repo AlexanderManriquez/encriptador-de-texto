@@ -13,6 +13,10 @@ main{
     justify-content: space-around;
 }
 
+.logo{
+    padding: 10px;
+}
+
 .titulo{
     text-align: center;
     color: #053225;
