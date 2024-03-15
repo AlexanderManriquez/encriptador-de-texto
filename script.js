@@ -1,5 +1,4 @@
 function encriptarTexto(texto) {
-    // Reemplazar las letras según las reglas de encriptación
     texto = texto.replace(/e/g, "enter");
     texto = texto.replace(/i/g, "imes");
     texto = texto.replace(/a/g, "ai");
