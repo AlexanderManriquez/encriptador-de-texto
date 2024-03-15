@@ -15,4 +15,4 @@ En construcción... 🧰
 3. Creada la función para copiar el texto.
 4. Creada la función que permite solo letras minúsculas
 
-Pendientes: Imagen en el campo de salida del texto, Responsivida en pantallas menores a 770 px de ancho.
+Pendientes: Imagen en el campo de salida del texto, Responsividad en pantallas menores a 770 px de ancho.
