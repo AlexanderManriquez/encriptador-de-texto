@@ -1,15 +1,3 @@
-/*function encriptarTexto(texto) {
-    texto = texto.replace(/e/g, "enter");
-    texto = texto.replace(/i/g, "imes");
-    texto = texto.replace(/a/g, "ai");
-    texto = texto.replace(/o/g, "ober");
-    texto = texto.replace(/u/g, "ufat");
-
-    return texto;
-}*/
-
-// Ejemplo de uso
-
 function encriptarTexto(){
     var textoOriginal = document.getElementById("entrada-texto").value;
 
@@ -48,22 +36,16 @@ function desencriptarTextoFuncion(texto) {
     texto = texto.replace(/ufat/g, "u");
 
     return texto;
-
-    return texto;
 }
 
 
-
-/*function desencriptarTexto(texto) {
-    texto = texto.replace(/enter/g, "e");
-    texto = texto.replace(/imes/g, "i");
-    texto = texto.replace(/ai/g, "a");
-    texto = texto.replace(/ober/g, "o");
-    texto = texto.replace(/ufat/g, "u");
-
-    return texto;
-}
-
-var textoEncriptado2 = "Hoberlai"
-var textoDesencriptado = desencriptarTexto(textoEncriptado2);
-console.log(textoDesencriptado); */
+async function copiarContenido() {
+    try {
+      await navigator.clipboard.writeText(document.getElementById("salida-texto").value);
+      console.log('Contenido copiado al portapapeles');
+      /* Resuelto - texto copiado al portapapeles con éxito */
+    } catch (err) {
+      console.error('Error al copiar: ', err);
+      /* Rechazado - fallo al copiar el texto al portapapeles */
+    }
+  }
