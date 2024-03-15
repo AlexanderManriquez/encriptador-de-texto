@@ -9,7 +9,21 @@ function encriptarTexto(texto) {
 }
 
 // Ejemplo de uso
-var textoOriginal = "Hola, cómo estás?";
+var textoOriginal = document.getElementById("entrada-texto");
 var textoEncriptado = encriptarTexto(textoOriginal);
-console.log("Texto original: ", textoOriginal);
-console.log("Texto encriptado: ", textoEncriptado);
+console.log(textoOriginal);
+console.log(textoEncriptado);
+
+function desencriptarTexto(texto) {
+    texto = texto.replace(/enter/g, "e");
+    texto = texto.replace(/imes/g, "i");
+    texto = texto.replace(/ai/g, "a");
+    texto = texto.replace(/ober/g, "o");
+    texto = texto.replace(/ufat/g, "u");
+
+    return texto;
+}
+
+var textoEncriptado2 = "Hoberlai"
+var textoDesencriptado = desencriptarTexto(textoEncriptado2);
+console.log(textoDesencriptado);
