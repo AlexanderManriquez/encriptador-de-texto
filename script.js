@@ -1,6 +1,13 @@
-function encriptarTexto(){
-    var textoOriginal = document.getElementById("entrada-texto").value;
+document.getElementById("entrada-texto").addEventListener("keydown", function(event) {
+  // Permitir solo letras minúsculas y teclas de control como backspace y delete
+  if (!event.ctrlKey && !event.metaKey && !event.altKey && event.key !== " " && event.key.length === 1 && event.key.match(/[^a-z]/)) {
+      event.preventDefault();
+  }
+});
 
+//Función para encriptar los mensajes
+function encriptarTexto(){ 
+    var textoOriginal = document.getElementById("entrada-texto").value;
     var textoEncriptado = encriptarTextoFuncion(textoOriginal);
 
     document.getElementById("salida-texto").value = textoEncriptado;
@@ -18,6 +25,7 @@ function encriptarTextoFuncion(texto) {
     return texto;
 }
 
+//Función para desencriptar los mensajes
 function desencriptarTexto(){
     var textoOriginal = document.getElementById("entrada-texto").value;
 
