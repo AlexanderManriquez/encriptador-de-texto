@@ -13,5 +13,6 @@ En construcción... 🧰
 1. Terminado el diseño de la página.
 2. Creadas las funciones de encriptación y desencriptación.
 3. Creada la función para copiar el texto.
+4. Creada la función que permite solo letras minúsculas
 
-Pendientes: Footer, Imagen en el campo de salida del texto.
+Pendientes: Imagen en el campo de salida del texto.
