@@ -1,6 +1,6 @@
 ## Challenge: Encriptador de Texto 1️
 
-Este es un proyecto que comenzaré a desarrollar luego de haber finalizado la primera parte de mi formación como desarrollador web, este challenge está diseñado para utilizar lo aprendido de HTML, CSS, JS, Git y Github.
+Este es un proyecto desarrollado luego de haber finalizado la primera parte de mi formación como desarrollador web, este challenge está diseñado para utilizar lo aprendido de HTML, CSS, JS, Git y Github. Corresponde al primer challenge de Alura Latam en la formacion de Oracle Next Education - Grupo 6.
 
 ## Resumen 📚
 
@@ -15,4 +15,4 @@ En construcción... 🧰
 3. Creada la función para copiar el texto.
 4. Creada la función que permite solo letras minúsculas
 
-Pendientes: Imagen en el campo de salida del texto.
+Pendientes: Imagen en el campo de salida del texto, Responsivida en pantallas menores a 770 px de ancho.
