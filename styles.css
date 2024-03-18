@@ -85,15 +85,10 @@ main{
     text-shadow: 2px 2px 5px #0F0326;
 }
 
-.derecha{
-    max-width: 49%;
-    /*border: 1px solid black; */
-}
-
 #salida-texto{
     border:#053225;
     border-radius: 10px;
-    background-color: #30474153;
+    background-color: transparent;
     color: #053225;
     font-size: 16px;
 }
@@ -103,7 +98,7 @@ main{
     background-color: #0F0326;
     color: #767B91;
     padding: 10px;
-    margin: 5px 0 0 5px;
+    margin: 20px 0 0 5px;
     border-radius: 10px;
     border: 1px solid black;
 }

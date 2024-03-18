@@ -11,6 +11,7 @@ function encriptarTexto(){
     var textoEncriptado = encriptarTextoFuncion(textoOriginal);
 
     document.getElementById("salida-texto").value = textoEncriptado;
+    document.getElementById("img").style.display = "none";
     console.log(textoOriginal);
     console.log(textoEncriptado);
 }
@@ -30,18 +31,17 @@ function desencriptarTexto(){
     var textoOriginal = document.getElementById("entrada-texto").value;
 
     var textoEncriptado = desencriptarTextoFuncion(textoOriginal);
-
     document.getElementById("salida-texto").value = textoEncriptado;
     console.log(textoOriginal);
     console.log(textoEncriptado);
 }
 
 function desencriptarTextoFuncion(texto) {
-    texto = texto.replace(/enter/g, "e");
     texto = texto.replace(/imes/g, "i");
     texto = texto.replace(/ai/g, "a");
     texto = texto.replace(/ober/g, "o");
     texto = texto.replace(/ufat/g, "u");
+    texto = texto.replace(/enter/g, "e");
 
     return texto;
 }
@@ -56,4 +56,5 @@ async function copiarContenido() {
       console.error('Error al copiar: ', err);
       /* Rechazado - fallo al copiar el texto al portapapeles */
     }
+    alert("Texto copiado")
   }
